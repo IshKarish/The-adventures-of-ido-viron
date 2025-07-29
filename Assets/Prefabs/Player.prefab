@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5561750771630162145}
   m_Layer: 0
   m_Name: Capsule
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 51025733150031986}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -169,7 +169,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!114 &51025733150031986
 MonoBehaviour:
@@ -183,6 +183,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ff289f90a2a82f4790058963c61d9df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Rb: {fileID: 3320311366313938660}
+  WalkSpeed: 2000
+  SprintSpeed: 3200
+  MouseSensitivity: 50
 --- !u!1 &8657487681568425993
 GameObject:
   m_ObjectHideFlags: 0
@@ -194,7 +198,7 @@ GameObject:
   - component: {fileID: 4399460395225702399}
   m_Layer: 0
   m_Name: Graphics
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
